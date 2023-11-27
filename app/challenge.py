@@ -27,14 +27,17 @@ def plot_country(populations, country):
   values = list(populations_by_year.values())[::-1]
   charts.generate_bar_chart(country,labels,values)
   
-                
-#country = select_country(population, 'China')
-
 #populations = populations_country(country)
 #print(country)
 #print(populations)
-print("Type the country to plot")
+
+""" print("Type the country to plot")
 country = input("> ")
-plot = plot_country(population, country)
+plot = plot_country(population, country) """
+
+country = select_country(population, 'China')
+print({year[:4]:population for (year,population) in country.items() if 'Population' in year and year[:4].isnumeric()})
+
+
 
   

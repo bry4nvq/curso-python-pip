@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 
 def generate_pie_chart():
 
-    labels = ['A','B','C']
-    values = [200, 34, 120]
+    labels = ['X','C','Z']
+    values = [130, 120, 122]
 
     fig, ax = plt.subplots()
     ax.pie(values, labels = labels)

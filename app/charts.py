@@ -18,8 +18,10 @@ def generate_pie_chart(continent, labels, values):
 if __name__ == '__main__':
   labels = ['A', 'B', 'C']
   values = [15, 20, 14]
-  generate_bar_chart(labels,values)
-  generate_pie_chart(labels,values)
+  country = 'china'
+  continent = 'South America'
+  generate_bar_chart(country,labels,values)
+  generate_pie_chart(country,labels,values)
   
 
 
