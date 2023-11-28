@@ -21,7 +21,7 @@ if __name__ == '__main__':
   country = 'china'
   continent = 'South America'
   generate_bar_chart(country,labels,values)
-  generate_pie_chart(country,labels,values)
+  generate_pie_chart(continent,labels,values)
   
 
 

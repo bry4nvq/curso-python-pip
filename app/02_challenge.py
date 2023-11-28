@@ -1,6 +1,7 @@
 import read_csv as rd
 import charts
 
+
 def countries_population_ratio(population, continent):
 
   countries_ratio = {country['Country/Territory']:country['World_Population_%'] for country in population if country['Continent'].lower() == continent.lower()}
