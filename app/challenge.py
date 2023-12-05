@@ -1,5 +1,6 @@
 import read_csv as rd
 import charts
+import pandas as pd
 
 def select_country(countries, country):
   """
