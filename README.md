@@ -19,3 +19,14 @@ python3 challenge.py
 python3 02_challenge.py
 deactivate
 ```
+# Web-server
+
+```sh
+git clone
+cd web-server
+python3 -m venv web-env
+source web-env/bin/activate
+pip3 install -r requirements.txt
+python3 main.py
+deactivate
+```
