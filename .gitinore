@@ -244,6 +244,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+app/env_pip_app/
+web-server/web-env/
+.app/env_pip_app/
+.web-server/web-env/
 
 # Spyder project settings
 .spyderproject
