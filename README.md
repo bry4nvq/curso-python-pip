@@ -25,6 +25,7 @@ deactivate
 git clone
 cd web-server
 python3 -m venv web-env
+source web-env/bin/activate
 pip3 install -r requirements.txt
 python3 main.py
 deactivate
