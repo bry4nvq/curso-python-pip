@@ -312,4 +312,9 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux,python,images
+# End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux,python,
+
+# ambientes
+
+*./web-env
+*./env_pip_app
