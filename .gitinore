@@ -244,10 +244,15 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+<<<<<<< Updated upstream
 app/env_pip_app/
 web-server/web-env/
 .app/env_pip_app/
 .web-server/web-env/
+=======
+app/env_pip_app
+web-server/web-env
+>>>>>>> Stashed changes
 
 # Spyder project settings
 .spyderproject
@@ -320,5 +325,5 @@ $RECYCLE.BIN/
 
 # ambientes
 
-*./web-env
-*./env_pip_app
+*./app/env_pip_app
+*./web-server/web-env
